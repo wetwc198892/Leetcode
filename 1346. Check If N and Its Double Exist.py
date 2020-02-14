@@ -4,9 +4,9 @@ class Solution:
         for i in arr:
             if i == 0:
                 count_zero += 1
-                if count_zero >1:
+                if count_zero > 1:
                     return True
                 continue
-            if arr.count(i*2)>0:
+            if arr.count(i*2) > 0:
                 return True
         return False
